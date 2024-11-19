@@ -120,11 +120,6 @@ ADD CONSTRAINT fk_issued_status
 FOREIGN KEY (issued_id)
 REFERENCES issued_status(issued_id);
 ```
-## Entity Relationship Diagram (ERD)
-Below is the Entity Relationship Diagram (ERD) of the library database in a snowflake design:
-
-![Library ERD](https://github.com/camklost/Library-Management-System---SQL/blob/main/library_erd.png)
-
 
 ---
 
